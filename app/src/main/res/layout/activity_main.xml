@@ -8,4 +8,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/edtNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/rgOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
   </androidx.constraintlayout.widget.ConstraintLayout>
